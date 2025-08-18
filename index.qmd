@@ -1,8 +1,16 @@
 ---
-title: "Lab 10"
-subtitle: "HMM Weather Generation"
+title: "Lab 10: Bias Correction Implementation"
+subtitle: "Bias correction coding, Statistical validation, Breaking physical correlations"
 author: CEVE 543 Fall 2025
-date: "2025-11-07"
+date: "2025-10-31"
+type: "lab"
+module: 2
+week: 10
+objectives:
+  - "Implement bias correction algorithms for climate data"
+  - "Validate bias correction methods statistically"
+  - "Understand how bias correction can break physical correlations"
+ps_connection: "Provides bias correction tools for PS2 Task 4"
 
 engine: julia
 
@@ -12,7 +20,7 @@ format:
     toc-depth: 2
     code-block-bg: "#f8f8f8"
     code-block-border-left: "#e1e4e5"
-    theme: default
+    theme: cosmo
     number-sections: true
     fig-format: svg
   typst:
@@ -35,7 +43,7 @@ code-block-font-size: "0.85em"
 
 ## Topics
 
-- Training HMM on historical data
-- Synthetic weather generation
-- Model validation approaches
+- Bias correction coding
+- Statistical validation
+- Breaking physical correlations
 
