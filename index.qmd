@@ -1,8 +1,8 @@
 ---
 title: "Lab 10"
-subtitle: "Weather Generator Development"
+subtitle: "HMM Weather Generation"
 author: CEVE 543 Fall 2025
-date: "2025-11-14"
+date: "2025-11-07"
 
 engine: julia
 
@@ -32,4 +32,10 @@ code-overflow: wrap
 code-line-numbers: false
 code-block-font-size: "0.85em"
 ---
+
+## Topics
+
+- Training HMM on historical data
+- Synthetic weather generation
+- Model validation approaches
 
