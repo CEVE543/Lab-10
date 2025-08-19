@@ -1,29 +1,31 @@
-# Lab 10: Bias Correction Implementation
+# Lab 10: HMM & NHMM Implementation
 
-**Date:** October 31, 2025 | **Module:** 2 | **Week:** 10
+**Date:** November 7, 2025 | **Module:** 2 | **Week:** 12
 
 ## Overview
 
-This lab focuses on implementing bias correction methods for climate model outputs. Students will code bias correction algorithms, validate their effectiveness statistically, and understand the important trade-offs involved, particularly how bias correction can break physical correlations in climate data.
+This comprehensive lab covers both basic Hidden Markov Models and their non-homogeneous extensions for climate change applications. Students will implement HMMs from scratch, extend them to time-varying parameters, and apply climate change scenarios for future weather generation.
 
 ## Topics Covered
 
-- Bias correction coding and implementation
-- Statistical validation of bias correction methods
-- Understanding how bias correction breaks physical correlations
-- Quantile mapping and other bias correction techniques
-- Trade-offs between bias reduction and correlation preservation
+- 2-state HMM implementation from scratch
+- Parameter estimation using EM algorithm or maximum likelihood
+- Non-homogeneous HMM extensions with time-varying parameters
+- Climate change parameter perturbation strategies
+- Synthetic weather generation and validation for current and future climates
+- Multi-scenario ensemble generation
 
 ## Objectives
 
-- Implement bias correction algorithms for climate data
-- Validate bias correction methods statistically
-- Understand how bias correction can break physical correlations
-- Evaluate the effectiveness and limitations of different approaches
+- Implement 2-state Hidden Markov Model from scratch
+- Extend to non-homogeneous HMM with time-varying parameters
+- Apply climate change parameter perturbation strategies
+- Generate synthetic weather sequences for hydrological modeling
+- Validate weather generation models against observations
 
 ## Connection to Problem Sets
 
-This lab provides the bias correction tools that students will use for PS2 Task 4, enabling them to properly process climate model outputs for hydrological impact studies while understanding the inherent limitations and trade-offs.
+This lab builds the comprehensive HMM toolkit that students will use for PS2 Tasks 5-6 (HMM weather generator, climate scenarios, and uncertainty analysis), providing both basic and advanced weather generation capabilities in one integrated lab.
 
 ---
 
