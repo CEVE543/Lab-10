@@ -43,11 +43,33 @@ code-line-numbers: false
 code-block-font-size: "0.85em"
 ---
 
-## Topics
+## Objectives
 
-- 2-state HMM implementation from scratch
-- Parameter estimation using EM algorithm
-- Non-homogeneous HMM extensions with time-varying parameters
-- Climate change parameter perturbation strategies
-- Synthetic weather generation and validation
+1. Implement 2-state Hidden Markov Model from scratch
+1. Extend to non-homogeneous HMM with time-varying parameters
+1. Apply climate change parameter perturbation strategies
+1. Generate and validate synthetic weather sequences for hydrological modeling
+
+## Before
+
+::: {.callout-important}
+## Instructions
+
+Do this before the lab date so that lab itself can go more smoothly.
+:::
+
+## Background and Reading
+
+<!-- Content will be added here -->
+
+## Tasks
+
+Modify the code section below to address the following tasks.
+
+1. Implement 2-state HMM from scratch with EM parameter estimation
+1. Extend to non-homogeneous HMM with time-varying transition probabilities
+1. Apply climate change parameter perturbation strategies to model projections
+1. Generate synthetic weather sequences and validate against observations
+
+## Code
 
