@@ -1,5 +1,5 @@
 ---
-title: "Lab 10: HMM & NHMM Implementation"
+title: "CEVE 543 Fall 2025 Lab 10: HMM & NHMM Implementation"
 subtitle: "2-state HMM implementation, NHMM extensions, climate change scenarios, synthetic weather generation"
 author: CEVE 543 Fall 2025
 date: "2025-11-07"
