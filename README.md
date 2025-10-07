@@ -1,31 +1,30 @@
-# Lab 10: HMM & NHMM Implementation
+# Lab 11: ML Downscaling Implementation
 
-**Date:** November 7, 2025 | **Module:** 2 | **Week:** 12
+**Date:** November 14, 2025 | **Module:** 2 | **Week:** 13
 
 ## Overview
 
-This comprehensive lab covers both basic Hidden Markov Models and their non-homogeneous extensions for climate change applications. Students will implement HMMs from scratch, extend them to time-varying parameters, and apply climate change scenarios for future weather generation.
+This lab introduces practical machine learning implementation for climate bias correction and downscaling. Students will implement neural network approaches, apply supervised learning to weather model data, and compare ML methods to traditional statistical approaches.
 
 ## Topics Covered
 
-- 2-state HMM implementation from scratch
-- Parameter estimation using EM algorithm or maximum likelihood
-- Non-homogeneous HMM extensions with time-varying parameters
-- Climate change parameter perturbation strategies
-- Synthetic weather generation and validation for current and future climates
-- Multi-scenario ensemble generation
+- Neural network implementation for bias correction
+- Supervised learning approaches to weather model downscaling
+- Comparison with traditional quantile mapping methods
+- Practical ML implementation challenges and computational requirements
+- Transfer learning and domain adaptation concepts
+- Evaluation of ML vs. traditional bias correction
 
 ## Objectives
 
-- Implement 2-state Hidden Markov Model from scratch
-- Extend to non-homogeneous HMM with time-varying parameters
-- Apply climate change parameter perturbation strategies
-- Generate synthetic weather sequences for hydrological modeling
-- Validate weather generation models against observations
+- Implement neural network approaches to bias correction
+- Apply supervised learning to weather model downscaling
+- Compare ML methods to traditional quantile mapping
+- Understand practical limitations and computational requirements
 
 ## Connection to Problem Sets
 
-This lab builds the comprehensive HMM toolkit that students will use for PS2 Tasks 5-6 (HMM weather generator, climate scenarios, and uncertainty analysis), providing both basic and advanced weather generation capabilities in one integrated lab.
+This lab provides advanced ML tools for enhanced bias correction and downscaling (optional extension beyond core PS2 requirements), allowing students to explore state-of-the-art methods while completing their problem set with traditional approaches.
 
 ---
 

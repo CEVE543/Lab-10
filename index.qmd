@@ -1,18 +1,17 @@
 ---
-title: "CEVE 543 Fall 2025 Lab 10: HMM & NHMM Implementation"
-subtitle: "2-state HMM implementation, NHMM extensions, climate change scenarios, synthetic weather generation"
+title: "CEVE 543 Fall 2025 Lab 10: ML Downscaling Implementation"
+subtitle: "Neural networks for bias correction, supervised learning approaches, practical ML implementation"
 author: CEVE 543 Fall 2025
-date: "2025-11-07"
+date: "2025-11-14"
 type: "lab"
 module: 2
-week: 12
+week: 13
 objectives:
-  - "Implement 2-state Hidden Markov Model from scratch"
-  - "Extend to non-homogeneous HMM with time-varying parameters"
-  - "Apply climate change parameter perturbation strategies"
-  - "Generate synthetic weather sequences for hydrological modeling"
-  - "Validate weather generation models against observations"
-ps_connection: "Builds comprehensive HMM toolkit for PS2 Tasks 5-6 (HMM weather generator, climate scenarios, and uncertainty analysis)"
+  - "Implement neural network approaches to bias correction"
+  - "Apply supervised learning to weather model downscaling"
+  - "Compare ML methods to traditional quantile mapping"
+  - "Understand practical limitations and computational requirements"
+ps_connection: "Provides advanced ML tools for enhanced bias correction and downscaling (optional extension beyond core PS2 requirements)"
 
 engine: julia
 
@@ -45,10 +44,10 @@ code-block-font-size: "0.85em"
 
 ## Objectives
 
-1. Implement 2-state Hidden Markov Model from scratch
-1. Extend to non-homogeneous HMM with time-varying parameters
-1. Apply climate change parameter perturbation strategies
-1. Generate and validate synthetic weather sequences for hydrological modeling
+1. Implement neural network approaches to bias correction
+1. Apply supervised learning to weather model downscaling
+1. Compare ML methods to traditional quantile mapping
+1. Understand practical limitations and computational requirements
 
 ## Before
 
@@ -66,10 +65,10 @@ Do this before the lab date so that lab itself can go more smoothly.
 
 Modify the code section below to address the following tasks.
 
-1. Implement 2-state HMM from scratch with EM parameter estimation
-1. Extend to non-homogeneous HMM with time-varying transition probabilities
-1. Apply climate change parameter perturbation strategies to model projections
-1. Generate synthetic weather sequences and validate against observations
+1. Implement neural network approaches for climate model bias correction
+1. Apply supervised learning methods to weather model downscaling problems
+1. Compare ML approaches with traditional quantile mapping methods
+1. Assess practical limitations, computational requirements, and performance trade-offs
 
 ## Code
 
