@@ -1,17 +1,17 @@
 ---
-title: "CEVE 543 Fall 2025 Lab 10: ML Downscaling Implementation"
-subtitle: "Neural networks for bias correction, supervised learning approaches, practical ML implementation"
+title: "CEVE 543 Fall 2025 Lab 10: Weather Generator Implementation"
+subtitle: "Markov-chain based synthetic weather generation"
 author: CEVE 543 Fall 2025
 date: "2025-11-14"
 type: "lab"
 module: 2
 week: 13
 objectives:
-  - "Implement neural network approaches to bias correction"
-  - "Apply supervised learning to weather model downscaling"
-  - "Compare ML methods to traditional quantile mapping"
-  - "Understand practical limitations and computational requirements"
-ps_connection: "Provides advanced ML tools for enhanced bias correction and downscaling (optional extension beyond core PS2 requirements)"
+  - "Implement stochastic weather generator for precipitation and temperature"
+  - "Generate synthetic weather sequences and validate against observations"
+  - "Understand preservation of statistical properties in synthetic data"
+  - "Compare weather generator output to observations"
+ps_connection: "Provides weather generator implementation experience for PS2 Part 4"
 
 engine: julia
 
@@ -44,10 +44,10 @@ code-block-font-size: "0.85em"
 
 ## Objectives
 
-1. Implement neural network approaches to bias correction
-1. Apply supervised learning to weather model downscaling
-1. Compare ML methods to traditional quantile mapping
-1. Understand practical limitations and computational requirements
+1. Implement stochastic weather generator for precipitation and temperature
+1. Generate synthetic weather sequences and validate against observations
+1. Understand preservation of statistical properties in synthetic data
+1. Compare weather generator output to observations
 
 ## Before
 
@@ -65,10 +65,18 @@ Do this before the lab date so that lab itself can go more smoothly.
 
 Modify the code section below to address the following tasks.
 
-1. Implement neural network approaches for climate model bias correction
-1. Apply supervised learning methods to weather model downscaling problems
-1. Compare ML approaches with traditional quantile mapping methods
-1. Assess practical limitations, computational requirements, and performance trade-offs
+1. Implement Markov-chain based weather generator for daily precipitation
+1. Extend generator to include temperature conditioned on precipitation state
+1. Generate long synthetic weather sequences and validate statistical properties
+1. Compare synthetic data to observations using multiple validation metrics
 
 ## Code
+
+```{julia}
+#| output: false
+using Pkg
+lab_dir = dirname(@__FILE__)
+Pkg.activate(lab_dir)
+# Pkg.instantiate() # uncomment this the first time you run the lab to install packages, then comment it back
+```
 
